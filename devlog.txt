@@ -1,0 +1,213 @@
+TheThreeZippers: Kelly Wang, Kristin Lin, Yedoh Kang
+APCS2 pd01
+Dictionary Frenzy!: DevLog
+
+/////////// Zone of Reflection \\\\\\\\\\\
+
+------------------------------------------
+OBSTACLES OVERCOME
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. We thought that parsing the dictionary and then putting the words into an
+   ArrayList would be hard, but we managed to do it! Although it took a long
+   time fixing the spacing in the Dictionary.txt file, we were able to get the
+   search method working. 
+2. We also managed to create a text file and write to it.
+3. We divided at the beginning on how to make Sets both a random queue and
+   priority queue, but we solved that by writing two different remove methods.
+   We were also divided on the nodes vs. arrays vs. ArrayList, but in the end,
+   we used all three to reflect the material this semester.
+
+UNRESOLVED ISSUES
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Some (minimal amount) words (even though they're in the dictionary) return null (no definition found).
+2. If we had more time, we would have added another option, to parse a text file and create a Set from that.
+	
+COOL STUFF LEARNED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. How to parse a text file!
+2. How to create and write to a file!
+3. How to format output in the terminal with System.out.printf();
+4. How to use colors in the terminal!
+
+MID-DEVELOPMENT DESIGN CHANGES
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. We decided to scrap AsteroidGravity.java because we thought that it would be
+   much better for both sides of the party. 
+   For the user, it would be hard to play a game of falling asteroids in the
+   terminal, and for the programmer, it would be difficult to code it.
+2. We decided that Learning, Matching, and Set needed to use arrays instead of
+   linked lists, like Set, to use MergeSort. The constructors in those classes
+   had to now copy over the Words in the chosen Set into their own array.
+
+LESSONS LEARNED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Always GIT PULL before you commit/push.
+2. Always make sure that another group member isn't working on the same file as
+   you at the same time.
+3. Don't use a Dictionary AT ALL unless you're going to use an API.
+4. Don't spend 2 weeks trying to fix all the mistakes in the text files.
+5. Keep a rudimentary Driver throughout the process. 
+6. Be watchful of what you name variables.
+7. Be efficient! Don't rewrite code that's already been implemented. 
+
+||||||||||||||||||||||||||||||||||||||||||
+	
+
+______   ______   __   __   __       ______   _______    
+
+/_____/\ /_____/\ /_/\ /_/\ /_/\     /_____/\ /______/\   
+\:::_ \ \\::::_\/_\:\ \\ \ \\:\ \    \:::_ \ \\::::__\/__ 
+ \:\ \ \ \\:\/___/\\:\ \\ \ \\:\ \    \:\ \ \ \\:\ /____/\
+  \:\ \ \ \\::___\/_\:\_/.:\ \\:\ \____\:\ \ \ \\:\\_  _\/
+   \:\/.:| |\:\____/\\ ..::/ / \:\/___/\\:\_\ \ \\:\_\ \ \
+    \____/_/ \_____\/ \___/_(   \_____\/ \_____\/ \_____\/
+
+
+==============================================================
+2017-06-05
+--------------------------------------------------------------
+Yedoh: fixed bugs, edited devlog and readme | 220 min (including class time)
+Kristin: fixed bugs, edited uml, added colors | 300 min (including class time)
+Kelly: fixed bugs, edited flowchart | 100 min (including class time)
+
+==============================================================
+2017-06-05
+--------------------------------------------------------------
+Yedoh: wrote the Zone of Reflection, helped Kelly test the checque method, looked for errors in the parsing | 80 min (including class time)
+Kristin: Fixed Driver.java bugs--specfically the editing section that called findRemove. Fixed formating as well. | 100 min (including class time)
+Kelly: wrote checque method, looked for errors in parsing | 100 min (including class time)
+
+==============================================================
+2017-06-04
+--------------------------------------------------------------
+Yedoh: fixed layout and tested Driver.java for bugs | 30 min
+Kristin: Helped Kelly look over first checkWord method | 5 min
+Kelly: wrote checkWord methods, looked for bugs | 130 min
+
+==============================================================
+2017-06-03
+--------------------------------------------------------------
+Yedoh: continued testing Dictionary.search() & fixed some methods in Driver.java and layout/output in the terminal | 80 min
+Kristin: fixed Driver error with Scanner and input; added option to edit a set| 90 min
+Kelly: n/a | 0 min
+
+==============================================================
+2017-06-02
+--------------------------------------------------------------
+Yedoh: Worked on Dictionary.search() & tested it thoroughly | 40 min
+Kristin: wrote Set.findRemove to remove a specific Word | 40 min
+Kelly: (same as YK) | 40 min
+
+==============================================================
+2017-06-01
+--------------------------------------------------------------
+Yedoh: finished fixing the Dictionary text files; worked on Driver.java, worked on the plan due tomorrow | 40 min  
+Kristin: Worked on Driver.java to correct user input & create txt file, fixed flowchart | 100 min 
+Kelly: Worked on Driver.java to correct user input & create txt file, made Flashcard.java and Learn.java friendlier | 115 min 
+
+==============================================================
+2017-05-31
+--------------------------------------------------------------
+Yedoh: worked on fixing the errors/bugs in the text files | 200 min
+Kristin: Worked on dictionary search method; finished Driver with exception of Dictionary search parts | 140 min (ict)
+Kelly: Changed functionality of Learn.java, finished error handling in Learn.java and Flashcard.java, worked on dictionary search method | 130 min (including class time) 
+
+==============================================================
+2017-05-30
+--------------------------------------------------------------
+Yedoh: worked on parsing the Dictionary.txt file & worked on fixing the other txt files for correct parsing | 120 min  
+Kristin: developed and added in-line comments to Driver; corrected UML | 100 min 
+Kelly: Worked on Learn.java, added comments | 45 min 
+
+==============================================================
+2017-05-29
+--------------------------------------------------------------
+Yedoh: worked on parsing the Dictionary.txt file & worked on README- "Launch Instructions" | 90 min  
+Kristin: Worked on README- "How It Works" | 10 min 
+Kelly: Worked on README- "For Users" | 10 min 
+
+==============================================================
+2017-05-28
+--------------------------------------------------------------
+Yedoh: worked on parsing the Dictionary.txt file | 40 min  
+Kristin: finished Matching.java; fixed tester method and logic errors in Matching | 50 min 
+Kelly: wrote a tester method for Matching.java, fixed some errors | 30 min 
+
+==============================================================
+2017-05-27
+--------------------------------------------------------------
+Yedoh: worked on parsing the Dictionary.txt file, worked on Matching.java | 20 min 
+Kristin: N/A | 0 min
+Kelly: (same) | 40 min
+
+==============================================================
+2017-05-26
+--------------------------------------------------------------
+Yedoh: worked on parsing the Dictionary.txt file, worked on Matching.java | 60 min (with class time) 
+Kristin: (same) | 40 min (with class time)
+Kelly: (same) | 40 min (with class time)
+
+
+==============================================================
+2017-05-25
+--------------------------------------------------------------
+Yedoh: worked on parsing the Dictionary.txt file, worked on Matching.java | 40 min (with class time) 
+Kristin: (same) | 40 min (with class time)
+Kelly: (same) | 40 min (with class time)
+
+==============================================================
+2017-05-24
+--------------------------------------------------------------
+Yedoh: worked on parsing the Dictionary.txt file, worked on Learn.java | 60 min (with class time) 
+Kristin: worked on Learn.java | 60 min (with class time)
+Kelly: worked on Learn.java | 40 min (with class time)
+
+==============================================================
+2017-05-23
+--------------------------------------------------------------
+Yedoh: worked on parsing the Dictionary.txt file, worked on the UML diagram and the flowchart, edited proposal | 130 min (with class time) 
+Kristin: worked on UML diagram and flowchart, wrote alphaCompare and fixed MergeSort for Flashcard to work, tested Flashcard, edited proposal | 140 min (with class time)
+Kelly: helped with alphaCompare method, worked on the flowchart, methods in Flashcard.java | 100 min (with class time)
+
+==============================================================
+2017-05-22
+--------------------------------------------------------------
+Yedoh: wrote Flashcard.java; discussed the binary search for the Dictionary and decided on creating a new Dictionary.java class to hold an ArrayList of words that would represent the dictionary | 140 min (with class time) 
+Kristin: (same) | 140 min (with class time)
+Kelly: helped write Flashcard.java and fixed syntax errors | 140 min
+
+==============================================================
+2017-05-21
+--------------------------------------------------------------
+Yedoh: wrote an updated plan | 10 min
+Kristin: fixed errors in Set.java for functionality and wrote a main method for test calls; added short description to current classes | 30 min
+Kelly: N/A | 0 min
+
+==============================================================
+2017-05-20
+--------------------------------------------------------------
+Yedoh: worked on Set.java and Flashcards.java. Sorted out some unclear things, like the underlying container for Word.java and how to use Set.java or Flashcards.java in the games. Decided how to use priority and randomized queue in Set.java | 100 min
+Kristin: (same) | 100 min
+Kelly: (same) | 100 min
+
+==============================================================
+2017-05-19
+--------------------------------------------------------------
+Yedoh: worked on Dictionary.txt and Word.java | 40 min
+Kristin: (same) | 40 min
+Kelly: (same) | 40 min
+
+==============================================================
+2017-05-18
+--------------------------------------------------------------
+Yedoh: wrote the plan for tomorrow, worked on the devlog | 40 min
+Kristin: wrote the plan for tomorrow, linked repo as submodule, created files | 70 min (including class time)
+Kelly: wrote the plan for tomorrow, filled out google form to register our repo, created files | 70 min (including class time)
+
+==============================================================
+2017-05-17
+--------------------------------------------------------------
+Yedoh: wrote the proposal & printed it | 40 min (including class time)
+Kristin: (same) | 40 min
+Kelly: (same) | 50 min (including class time)
+
